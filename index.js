@@ -17,7 +17,7 @@ const port = process.env.PORT || 5000;
 // }));
 app.use(cors({
     origin: [
-        // 'http://localhost:5173'
+        'http://localhost:5173',
         'https://cars-doctor-98dad.web.app/',
         'https://cars-doctor-98dad.firebaseapp.com/'
     ],
