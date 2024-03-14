@@ -1,13 +1,7 @@
-{
-    "version": 2,
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "server.js"
-      }
-    ],
-    "env": {
-      "MONGODB_URI": "mongodb+srv://car_doctor:jWmPFoz49HkqtRz1@cluster0.oyebmuz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-    }
-  }
-  
+{ 
+"version": 2,
+"rewrites": [{
+     "source": "/(.*)",
+     "destination": "/" 
+     }]
+}
